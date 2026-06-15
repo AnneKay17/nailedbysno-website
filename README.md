@@ -96,6 +96,16 @@ This project was created to provide NailedBySno with a professional online prese
 - Access booking information
 - Contact the business directly
 
+## 👤 Brand Identity
+
+This website was designed around the identity and work of NailedBySno, showcasing authentic nail designs, client work, and services to reflect the brand's style and personality.
+
+## ⚠️ Usage Notice
+
+This repository was created for client project purposes.
+
+The branding, nail images, business identity, logos, and business-related content featured in this project belong to NailedBySno and may not be copied, reused, redistributed, or reproduced without permission.
+
 ## 👩‍💻 Author
 
 Created by **Karabo Makhubela**
