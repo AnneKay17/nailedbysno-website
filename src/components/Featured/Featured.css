@@ -1,0 +1,92 @@
+.featured-work {
+  padding: 100px 8%;
+  background: #fff9fb;
+}
+
+.featured-header {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 60px;
+}
+
+.featured-header span {
+  color: #e8a5c2;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.featured-header h2 {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  margin: 15px 0;
+  color: #2d2d2d;
+}
+
+.featured-header p {
+  color: #666;
+  line-height: 1.7;
+}
+
+.featured-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  grid-template-rows: repeat(2, 280px);
+  gap: 25px;
+}
+
+.featured-card {
+  overflow: hidden;
+  border-radius: 28px;
+  background: white;
+  box-shadow: 0 15px 40px rgba(232, 165, 194, 0.22);
+}
+
+.large-card {
+  grid-row: span 2;
+}
+
+.featured-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.4s ease;
+}
+
+.featured-card:hover img {
+  transform: scale(1.05);
+}
+
+.featured-btn-wrapper {
+  text-align: center;
+  margin-top: 45px;
+}
+
+.featured-btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 14px 28px;
+  border-radius: 999px;
+  background: #e8a5c2;
+  color: white;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.featured-btn:hover {
+  background: #d889ae;
+}
+
+@media (max-width: 768px) {
+  .featured-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .large-card {
+    grid-row: auto;
+  }
+
+  .featured-card {
+    height: 360px;
+  }
+}

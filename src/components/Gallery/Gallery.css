@@ -1,0 +1,156 @@
+.gallery {
+  padding: 100px 8%;
+  background: #ffffff;
+}
+
+.gallery-header {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 60px;
+}
+
+.gallery-header span {
+  color: #e8a5c2;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.gallery-header h2 {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  margin: 15px 0;
+  color: #2d2d2d;
+}
+
+.gallery-header p {
+  color: #666;
+  line-height: 1.7;
+}
+
+/* Pinterest Layout */
+.gallery-grid {
+  columns: 3 260px;
+  column-gap: 24px;
+}
+
+.gallery-card {
+  position: relative;
+  break-inside: avoid;
+  margin-bottom: 24px;
+  border-radius: 26px;
+  overflow: hidden;
+  box-shadow: 0 15px 40px rgba(232, 165, 194, 0.18);
+}
+
+.gallery-card img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  transition: 0.4s ease;
+}
+
+/* Different image sizes */
+.gallery-card.normal img {
+  height: 320px;
+}
+
+.gallery-card.tall img {
+  height: 500px;
+}
+
+.gallery-card.small img {
+  height: 240px;
+}
+
+.gallery-card:hover img {
+  transform: scale(1.04);
+}
+
+.gallery-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(45, 45, 45, 0.55),
+    rgba(45, 45, 45, 0.05)
+  );
+  display: flex;
+  align-items: flex-end;
+  padding: 28px;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.gallery-card:hover .gallery-overlay {
+  opacity: 1;
+}
+
+.gallery-overlay p {
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .gallery {
+    padding: 80px 6%;
+  }
+
+  .gallery-grid {
+    columns: 2 180px;
+    column-gap: 16px;
+  }
+
+  .gallery-card {
+    margin-bottom: 16px;
+    border-radius: 20px;
+  }
+
+  .gallery-card.normal img {
+    height: 260px;
+  }
+
+  .gallery-card.tall img {
+    height: 400px;
+  }
+
+  .gallery-card.small img {
+    height: 200px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .gallery-grid {
+    columns: 2;
+    column-gap: 12px;
+  }
+
+  .gallery-card {
+    margin-bottom: 12px;
+    border-radius: 16px;
+  }
+
+  .gallery-card.normal img {
+    height: 220px;
+  }
+
+  .gallery-card.tall img {
+    height: 320px;
+  }
+
+  .gallery-card.small img {
+    height: 180px;
+  }
+
+  .gallery-overlay {
+    opacity: 1;
+    padding: 14px;
+  }
+
+  .gallery-overlay p {
+    font-size: 0.85rem;
+  }
+}
