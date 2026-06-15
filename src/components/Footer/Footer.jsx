@@ -13,14 +13,6 @@ const Footer = () => {
 
         <div className="footer-links">
           <a
-            href="https://instagram.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Instagram
-          </a>
-
-          <a
             href="https://wa.me/27746652269?text=Hi%20Sno!%20I'd%20like%20to%20book%20an%20appointment."
             target="_blank"
             rel="noopener noreferrer"
