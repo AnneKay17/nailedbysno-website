@@ -1,16 +1,16 @@
 import './Gallery.css'
 
-import img1 from "../../assets/nail-tech-images/nails1.jpeg"
-import img2 from "../../assets/nail-tech-images/nails2.jpeg"
-import img3 from "../../assets/nail-tech-images/nails3.jpeg"
-import img4 from "../../assets/nail-tech-images/nails4.jpeg"
-import img5 from "../../assets/nail-tech-images/nails5.jpeg"
-import img6 from "../../assets/nail-tech-images/nails6.jpeg"
-import img7 from "../../assets/nail-tech-images/nails7.jpeg"
-import img8 from "../../assets/nail-tech-images/nails8.jpeg"
-import img9 from "../../assets/nail-tech-images/nails9.jpeg"
-import img10 from "../../assets/pedicure/pedi1.jpeg"
-import img11 from "../../assets/pedicure/pedi3.jpeg"
+import img1 from "../../assets/nail-tech-images/nails1.webp"
+import img2 from "../../assets/nail-tech-images/nails2.webp"
+import img3 from "../../assets/nail-tech-images/nails3.webp"
+import img4 from "../../assets/nail-tech-images/nails4.webp"
+import img5 from "../../assets/nail-tech-images/nails5.webp"
+import img6 from "../../assets/nail-tech-images/nails6.webp"
+import img7 from "../../assets/nail-tech-images/nails7.webp"
+import img8 from "../../assets/nail-tech-images/nails8.webp"
+import img9 from "../../assets/nail-tech-images/nails9.webp"
+import img10 from "../../assets/pedicure/pedi1.webp"
+import img11 from "../../assets/pedicure/pedi3.webp"
 
 
 const Gallery = () => {

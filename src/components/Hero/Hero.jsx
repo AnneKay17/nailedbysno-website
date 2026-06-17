@@ -1,5 +1,5 @@
 import "./Hero.css";
-import heroImage from '../../assets/nail-tech-images/hero-nails.jpeg'
+import heroImage from '../../assets/nail-tech-images/hero-nails.webp'
 
 const Hero = () => {
   return (
@@ -15,7 +15,7 @@ const Hero = () => {
         </p>
 
         <div className="hero-buttons">
-          <a href="#booking" className="btn primary-btn">
+          <a href="#contact" className="btn primary-btn">
             Book Appointment
           </a>
 

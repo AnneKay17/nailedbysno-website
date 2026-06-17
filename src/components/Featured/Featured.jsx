@@ -1,8 +1,8 @@
 import './Featured.css'
 
-import nails1 from '../../assets/nail-tech-images/feat1.jpeg'
-import nails2 from '../../assets/nail-tech-images/feat2.jpeg'
-import nails3 from '../../assets/pedicure/pedi2.jpeg'
+import nails1 from '../../assets/nail-tech-images/feat1.webp'
+import nails2 from '../../assets/nail-tech-images/feat2.webp'
+import nails3 from '../../assets/pedicure/pedi2.webp'
 
 const Featured = () => {
     return (
