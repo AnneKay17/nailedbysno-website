@@ -70,7 +70,7 @@ const Gallery = () => {
         },
         {
             image: img11, 
-            title: "French Pedicure",
+            title: "Milky pedi",
             size: "small"
         },
         
